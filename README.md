@@ -1,38 +1,53 @@
-# Prathamesh Yogesh Kapure
+# UVM-Based Design Verification Projects
 
-### VLSI Engineer | RTL Design & Design Verification
+**Prathamesh Yogesh Kapure**  
+Design Verification Engineer | SystemVerilog | UVM | Functional Verification
 
-Welcome to my VLSI project portfolio! I am a VLSI engineer with a postgraduate diploma in VLSI Design and Verification, interested in RTL design, functional verification, and digital hardware design.
-
-## About Me
-
-- Experience with SystemVerilog and UVM-based functional verification
-- Knowledge of Verilog and digital design fundamentals
-- Experience developing UVM agents, sequences, drivers, monitors, and functional checks
-- Familiar with AHB-Lite and QSPI protocols
-- Simulation, waveform analysis, and debugging using QuestaSim
+Welcome to my UVM-based design verification portfolio. This repository showcases projects focused on reusable UVM testbench architecture, protocol verification, agent development, and functional debugging.
 
 ## Technical Skills
 
-- **HDLs:** Verilog, SystemVerilog
-- **Verification:** UVM, Functional Verification, Testbench Development
-- **Protocols:** AHB-Lite, QSPI
-- **Tools:** QuestaSim
-- **Core Concepts:** RTL Design, Digital Logic Design, Waveform Analysis
+- **Languages:** SystemVerilog, Verilog
+- **Verification Methodology:** Universal Verification Methodology (UVM)
+- **UVM Components:** Agents, sequences, drivers, monitors
+- **Protocols:** SPI, I2C, AHB-Lite, QSPI
+- **Simulation Tool:** QuestaSim
+- **Verification Activities:** Testbench development, functional checking, waveform analysis, debugging
 
 ## Projects
 
-### 1. Cache-Based XIP Verification
+### 1. SPI & I2C Functional Verification using UVM
 
-Verification of a cache-based Execute-in-Place (XIP) design involving AHB-Lite and QSPI interfaces.
+**Objective:** Develop and integrate UVM-based verification environments for serial communication protocols.
 
-**Focus areas:**
-- UVM-based verification environment
-- UVM agents, sequences, drivers, and monitors
-- Functional checks and simulation
-- Waveform analysis and debugging
+**Key Contributions**
+- Developed a reusable SPI UVM verification environment.
+- Implemented UVM sequences, driver, monitor, and agent components.
+- Integrated the SPI environment with a teammate's I2C UVM environment.
+- Performed functional verification and simulation debugging using QuestaSim.
 
-*Project source code and detailed results will be added here.*
+**Key Concepts:** UVM architecture, reusable verification components, SPI protocol, I2C environment integration.
+
+### 2. Cache-Based XIP Design Verification using UVM
+
+**Objective:** Verify a cache-based Execute-in-Place (XIP) design involving AHB-Lite and QSPI interfaces.
+
+**Key Contributions**
+- Developed a UVM-based testbench for end-to-end design verification.
+- Verified interactions among the AHB-Lite interface, cache, QSPI controller, and QSPI Flash.
+- Developed an AHB-Lite Master Agent.
+- Developed a reactive QSPI Flash Memory Slave Agent.
+- Used QuestaSim for simulation, waveform analysis, and debugging.
+
+**Key Concepts:** UVM agents, AHB-Lite, QSPI, cache-based XIP, end-to-end verification.
+
+*The directory structure is illustrative; adapt it to match the actual project files.*
+
+## Tools
+
+- QuestaSim
+- SystemVerilog
+- Universal Verification Methodology (UVM)
 
 ## Contact
 
