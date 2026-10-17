@@ -1,34 +1,46 @@
-# UVM-Based Design Verification Projects
+# Design Verification Projects Portfolio
 
 **Prathamesh Yogesh Kapure**  
 Design Verification Engineer | SystemVerilog | UVM | Functional Verification
 
-Welcome to my UVM-based design verification portfolio. This repository showcases projects focused on reusable UVM testbench architecture, protocol verification, agent development, and functional debugging.
+Welcome to my design verification portfolio! This repository showcases my work in functional verification, SystemVerilog testbench development, UVM-based verification environments, and digital design verification.
 
 ## Technical Skills
 
-- **Languages:** SystemVerilog, Verilog
-- **Verification Methodology:** Universal Verification Methodology (UVM)
+- **Languages:** Verilog, SystemVerilog
+- **Verification Methodologies:** UVM, functional verification
 - **UVM Components:** Agents, sequences, drivers, monitors
 - **Protocols:** SPI, I2C, AHB-Lite, QSPI
-- **Simulation Tool:** QuestaSim
-- **Verification Activities:** Testbench development, functional checking, waveform analysis, debugging
+- **Simulation Tools:** QuestaSim, Verilator, Icarus Verilog
+- **Verification Activities:** Testbench development, stimulus generation, functional checking, waveform analysis, debugging
 
 ## Projects
 
-### 1. SPI & I2C Functional Verification using UVM
+### 1. FIFO Verification using SystemVerilog Testbench
+
+**Objective:** Verify the functional behavior of a First-In, First-Out (FIFO) design using a SystemVerilog testbench.
+
+**Key Focus Areas**
+- Develop a testbench to generate stimulus for FIFO read and write operations.
+- Verify data ordering and read/write behavior.
+- Test full and empty conditions, where supported by the design.
+- Analyze simulation waveforms and debug functional issues.
+
+**Key Concepts:** SystemVerilog testbench, stimulus generation, data integrity, functional checking.
+
+### 2. SPI & I2C Functional Verification using UVM
 
 **Objective:** Develop and integrate UVM-based verification environments for serial communication protocols.
 
 **Key Contributions**
-- Developed a reusable SPI UVM verification environment.
+- Developed a UVM-based SPI verification environment.
 - Implemented UVM sequences, driver, monitor, and agent components.
 - Integrated the SPI environment with a teammate's I2C UVM environment.
 - Performed functional verification and simulation debugging using QuestaSim.
 
 **Key Concepts:** UVM architecture, reusable verification components, SPI protocol, I2C environment integration.
 
-### 2. Cache-Based XIP Design Verification using UVM
+### 3. Cache-Based XIP Design Verification using UVM
 
 **Objective:** Verify a cache-based Execute-in-Place (XIP) design involving AHB-Lite and QSPI interfaces.
 
@@ -41,13 +53,15 @@ Welcome to my UVM-based design verification portfolio. This repository showcases
 
 **Key Concepts:** UVM agents, AHB-Lite, QSPI, cache-based XIP, end-to-end verification.
 
-*The directory structure is illustrative; adapt it to match the actual project files.*
+## Repository Structure
 
 ## Tools
 
-- QuestaSim
 - SystemVerilog
 - Universal Verification Methodology (UVM)
+- QuestaSim
+- Verilator
+- Icarus Verilog
 
 ## Contact
 
